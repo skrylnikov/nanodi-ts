@@ -31,16 +31,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "nanodi",
+  "name": "nanodi-ts",
   "author": "Dmitriy Skrylnikov",
-  "module": "dist/nanodi.esm.js",
+  "module": "dist/nanodi-ts.esm.js",
   "size-limit": [
     {
-      "path": "dist/nanodi.cjs.production.min.js",
+      "path": "dist/nanodi-ts.cjs.production.min.js",
       "limit": "1 KB"
     },
     {
-      "path": "dist/nanodi.esm.js",
+      "path": "dist/nanodi-ts.esm.js",
       "limit": "1 KB"
     }
   ],

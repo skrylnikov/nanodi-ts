@@ -6,18 +6,18 @@ Simple dependency injection container for typescript without decorators.
 
 With npm:
 ```bash
-npm i -s nanodi
+npm i -s nanodi-ts
 ```
 
 Or yarn
 ```bash
-yarn add nanodi
+yarn add nanodi-ts
 ```
 
 ## Usage
 
 ```typescript
-import { Container } from 'nanodi';
+import { Container } from 'nanodi-ts';
 
 // declare dependencies 
 const readFile = () => {
