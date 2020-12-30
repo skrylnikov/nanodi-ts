@@ -1,4 +1,4 @@
-# MiniDI
+# NanoDI
 
 Simple dependency injection container for typescript without decorators.
 
@@ -6,18 +6,18 @@ Simple dependency injection container for typescript without decorators.
 
 With npm:
 ```bash
-npm i -s minidi
+npm i -s nanodi
 ```
 
 Or yarn
 ```bash
-yarn add minidi
+yarn add nanodi
 ```
 
 ## Usage
 
 ```typescript
-import { Container } from 'minidi';
+import { Container } from 'nanodi';
 
 // declare dependencies 
 const readFile = () => {
